@@ -60,3 +60,5 @@ gem "devise", "~> 4.4"
 gem "simple_form", "~> 4.0"
 
 gem "ckeditor", "~> 4.2"
+
+gem "mini_magick", "~> 4.8"
