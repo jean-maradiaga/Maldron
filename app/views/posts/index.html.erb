@@ -1,4 +1,5 @@
 <% @posts.each do |post| %>
-    <h1><%= post.title %></h1>
-    <p><%= post.content %></p>
+  <%= image_tag post.image_url.to_s >
+  <h1><%= post.title %></h1>
+  <p><%= post.content %></p>
 <% end %>
