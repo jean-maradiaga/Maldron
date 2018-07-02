@@ -54,3 +54,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "pg", "~> 1.0"
 
 gem "carrierwave", "~> 1.2"
+
+gem "devise", "~> 4.4"
+
+gem "simple_form", "~> 4.0"
+
+gem "ckeditor", "~> 4.2"

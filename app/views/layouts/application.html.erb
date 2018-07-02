@@ -10,7 +10,11 @@
   </head>
 
   <body>
-    <%= render 'shared/nav' %>
-    <%= yield %>
+    <%= render "layouts/admin_navigation" %>
+    <div class="container-fluid">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <%= yield %>
+    </div>
   </body>
 </html>
